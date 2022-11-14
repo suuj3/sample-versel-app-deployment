@@ -1,0 +1,135 @@
+body{
+    padding: 0px;
+    margin: 0px;
+    background-image: url("Aesthetic\ Anime\ Wallpapers\ -\ WallpaperSafari.jpg");
+    width: auto;
+    height: 569px;
+    position: relative;
+
+    background-position: center;
+
+}
+
+.top_cover{
+    background-image: url(Screenshot\ 2022-09-22\ 173908.png);
+    width: auto;
+    height: 569px;
+    position: relative;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.S{
+    border-radius: 500px;
+    size: 10px;
+    margin-left: 28px;
+    margin-top: 8px;
+    width: 40px;
+}
+
+.top{
+    float: left;
+}
+
+.portfolio{
+    float: right;
+    margin-left: 20px;
+    
+}
+
+.nav_Links a{
+    float: right;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: 9px;
+    margin-right: 17px;
+    overflow: hidden;
+    text-decoration:none;
+    padding: 8px;
+    color: white;
+}
+
+.l4{
+font-weight:650;
+}
+
+.nav_Links :hover{
+    color: rgb(211, 137, 137);
+}
+
+.bottom_cover{
+    padding: 20px;
+}
+
+.p1{
+    float: left;
+    width: auto;
+    height: 300px;
+    margin-left: 60px;
+}
+
+.p2{
+    float: right;
+    width: 650px;
+    height: auto;
+    margin-right: 60px;
+}
+
+
+.p3{
+    float: left;
+    padding-top: 20px;
+    float: left;
+    width: auto;
+    height: 300px;
+    margin-left: 60px;
+}
+
+.p4{
+    float: right;
+    padding-top: 10px;
+    width: auto;
+    height: 480px;
+    margin-right: 20px;
+    margin-left: 200px;
+}
+
+.p5{
+    float: right;
+    padding-top: 10px;
+    width: 326px;
+    height: auto;
+    padding-top: 6px;
+    transform: translateX(57%);
+}
+
+.p6{
+    float: left;
+    width: 300px;
+    height: auto;
+    padding-left: 50px;
+    padding-top: 20px;
+    transform: translateY(-30%);
+}
+
+.p7{
+    float: left;
+    width: 300px;
+    height: auto;
+    padding-top: 10px;
+    padding-left: 70px;
+    transform: translateY(-41%);
+}
+
+@media screen and (max-width:800px){
+    .bottom_cover, .r1, .r2{
+        float: left;
+        width: auto;
+        height: auto;
+        max-width: 110%;
+        align-self: center;
+        padding-bottom: 10px;
+        padding: 0px 20px;
+    }
+}

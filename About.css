@@ -1,0 +1,243 @@
+body{
+    padding: 0px;
+    margin: 0px;
+    background-image: url(783703.png);
+    background-position: center;
+    width: auto;
+    height: 570px;
+    position: relative;
+
+}
+
+.top_cover{
+    background-image: url(About.png);
+    width: auto;
+    height: 569px;
+    position: relative;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.S{
+    border-radius: 500px;
+    size: 10px;
+    margin-left: 28px;
+    margin-top: 8px;
+    width: 40px;
+}
+
+.top{
+    float: left;
+}
+
+.portfolio{
+    float: right;
+    margin-left: 20px;
+}
+
+.nav_Links a{
+    float: right;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: 9px;
+    margin-right: 17px;
+    overflow: hidden;
+    text-decoration:none;
+    padding: 8px;
+    color: black;
+}
+
+.l2{
+font-weight:650;
+}
+
+.nav_Links :hover{
+    color: rgb(211, 137, 137);
+}
+
+.name{
+    font-family: cursive;
+    font-style: italic;
+    font-size: xx-large;
+    color:rgb(27, 61, 103);
+    margin-right: 390px;
+}
+
+.border{
+    margin-top: 100px;
+    margin-left: 100px;
+    width: 81%;
+    border: 5px solid rgb(27, 61, 103);
+    display: inline-block;
+}
+
+h2{
+    text-align: center;
+    font-style: italic;
+}
+
+.bottom_cover{
+    background-image: url(783703.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    width: auto;
+    height: 570px;
+    position: relative;
+    background-size: cover;
+}
+
+.me{
+    margin-left: 50px;
+    padding: 15px;
+    font-family: cursive;
+    color: rgb(221, 214, 205);
+    font-size: 19px;
+    font-style: italic;
+}
+
+.things{
+    margin-left: 50px;
+    font-family: cursive;
+    color: rgb(221, 214, 205);
+    padding: 15px;
+    font-style: italic;
+}
+
+.r1 div{
+    display: inline-block;
+}
+
+.r2 div{
+    display: inline-block;
+}
+
+.r3 div{
+    display: inline-block;
+}
+
+.r4 div{
+    display: inline-block;
+}
+
+
+.p1{
+    float: left;
+    width: auto;
+    height: 340px;
+    margin-left: 40px;
+}
+
+.p2{
+    width: right;
+    height: 300px;
+    float: right;
+    margin-right: 40px;
+}
+
+.p3{
+    float: left;
+    width: auto;
+    height: 330px;
+    margin-left: 40px;
+}
+
+.p4{
+    float: right;
+    width: auto;
+    height: 300px;
+    margin-right: 40px;
+}
+
+.p5{
+    float: left;
+    width: auto;
+    height: 360px;
+    margin-left: 40px;
+}
+
+.p6{
+    float: right;
+    width: auto;
+    height: 300px;
+    margin-right: 40px;
+}
+
+.p7{
+    width: auto;
+    height: 360px;
+    transform: translateX(-50%);
+}
+
+.p8{
+    float: right;
+    width: auto;
+    height: 300px;
+    margin-right: 40px;
+}
+
+.painting, .music, .writing, .digiArt{
+    margin-left: 100px;
+    margin-right: 290px;
+    font-family: cursive;
+    color: rgb(221, 214, 205);
+    font-style: italic;
+}
+
+.dreams{
+    margin-left: 50px;
+    padding: 15px;
+    font-family: cursive;
+    color: rgb(221, 214, 205);
+    font-size: 19px;
+    font-style: italic;
+}
+
+@media screen and (max-width:1000px){
+    .name{
+        float: left;
+        max-width: 100%;
+        width: auto;
+        height: auto;
+        padding: 20px 0px;
+
+    }
+
+    .bottom_cover, .me, .r1, .r2, .r3, .r4, .dreams{
+        float: left;
+        max-width: 100%;
+        width: auto;
+        height: auto;
+    }
+
+    .p2{
+        margin-top: 10px;
+    }
+
+    .p4{
+        margin-left: 200px
+    }
+
+    .p7{
+        float: left;
+        margin-left: 280px;
+    }
+}
+
+@media screen and (max-width:600px){
+    .name{
+        float: left;
+        max-width: 100%;
+        width: 200px;
+        height: auto;
+
+
+    }
+
+    .top_cover{
+        max-width: 100%;
+        width: auto;
+        width: auto;
+    }
+
+}
